@@ -1,0 +1,107 @@
+/* General Body Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #f9f9f9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+  }
+  
+  /* ATM Container */
+  .atm {
+    background: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 400px;
+    text-align: center;
+  }
+  
+  .atm h1 {
+    color: #333;
+    margin-bottom: 20px;
+    font-size: 24px;
+  }
+  
+  /* Section Styles */
+  #balance-section,
+  #deposit-section,
+  #withdraw-section {
+    margin-bottom: 20px;
+  }
+  
+  h3 {
+    color: #555;
+    margin-bottom: 10px;
+  }
+  
+  /* Input Fields */
+  input[type="number"] {
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin-bottom: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  input[type="number"]:focus {
+    border-color: #007bff;
+    outline: none;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.3);
+  }
+  
+/* General Button Styles */
+.btn {
+    color: #fff;
+    padding: 10px 15px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s;
+  }
+  
+  /* Specific Button Colors */
+  .btn-blue {
+    background-color: #00a8ff; /* Blue */
+  }
+  
+  .btn-blue:hover {
+    background-color: #0097e6;
+  }
+  
+  .btn-green {
+    background-color: #4cd137; /* Green */
+  }
+  
+  .btn-green:hover {
+    background-color: #44bd32;
+  }
+  
+  .btn-red {
+    background-color: #e84118; /* Red */
+  }
+  
+  .btn-red:hover {
+    background-color: #c23616;
+  }
+  
+  /* Balance Display */
+  #balance-display {
+    font-size: 18px;
+    color: #007bff;
+    margin-top: 10px;
+    font-weight: bold;
+  }
+  
+  /* Message Styling */
+  #message {
+    color: #d9534f;
+    font-size: 16px;
+    font-weight: bold;
+  }
+  

@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>ATM Machine</title>
-  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
   <div class="atm">
@@ -12,7 +12,7 @@
     
     <!-- Display Balance Section -->
     <div id="balance-section">
-      <button onclick="displayBalance()">View Balance</button>
+      <button class="btn btn-blue" onclick="displayBalance()">View Balance</button>
       <p id="balance-display">Balance: $0</p>
     </div>
     
@@ -20,14 +20,14 @@
     <div id="deposit-section">
       <h3>Deposit Cash</h3>
       <input type="number" id="deposit-amount" placeholder="Enter deposit amount">
-      <button onclick="depositCash()">Deposit</button>
+      <button class="btn btn-green" onclick="depositCash()">Deposit</button>
     </div>
     
     <!-- Withdraw Section -->
     <div id="withdraw-section">
       <h3>Withdraw Cash</h3>
       <input type="number" id="withdraw-amount" placeholder="Enter withdrawal amount">
-      <button onclick="withdrawCash()">Withdraw</button>
+      <button class="btn btn-red" onclick="withdrawCash()">Withdraw</button>
     </div>
     
     <p id="message"></p>
